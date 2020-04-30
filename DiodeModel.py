@@ -38,7 +38,7 @@ def plot(xdata, ydata, nPoints, IS, N, RS):
 
 def main():
 #set up parser for command line args
-    parser = argparse.ArgumentParser(prog='DiodeModel')
+    parser = argparse.ArgumentParser(prog='DiodeModel.py')
     parser.add_argument('filename', help='Name of file containing I-V data (I in mA, V in volts)')
     parser.add_argument('-c', '--convert', help='Convert read in current to mA', action="store_true")
     parser.add_argument('-p', '--plot', help='Just plot the data and initial guess, no fitting performed', action="store_true")
